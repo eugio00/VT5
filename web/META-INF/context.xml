@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/HorseraceApplication">
+    <!-- Connection pool for Horserace application -->
+    <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" 
+              maxActive="100" maxIdle="30" maxWait="10000" 
+              name="jdbc/HorseracePool" password="root" username="root" 
+              type="javax.sql.DataSource" url="jdbc:mysql://localhost/horserace"/>
+</Context>
